@@ -7,7 +7,7 @@
     {id:5,name:'Lời thương màu trắng',price:540000,occasion:['Chúc bình an','Tặng người thương'],desc:'Hồng trắng, baby và lá khuynh diệp.',tag:'Hoa theo mùa',img:'photo-1487530811176-3780de880c2d'},
     {id:6,name:'Cam lành',price:390000,occasion:['Sinh nhật','Cảm ơn'],desc:'Mao lương cam và đồng tiền vàng rực rỡ.',tag:'Được yêu thích',img:'photo-1494972308805-463bc619d34e'},
     {id:7,name:'Mây hồng',price:330000,occasion:['Sinh nhật','Tặng người thương'],desc:'Cẩm chướng hồng, hồng nhánh và lá thơm.',tag:'Hoa theo mùa',img:'photo-1490750967868-88aa4486c946'},
-    {id:8,name:'Bó tulip nhỏ',price:260000,occasion:['Cảm ơn','Chúc bình an'],desc:'Tulip màu nắng gói giấy mộc, vừa xinh để tặng.',tag:'Vừa túi xinh',img:'photo-1523694576729-dc99e9c0f9e4'}
+    {id:8,name:'Bó tulip nhỏ',price:260000,occasion:['Cảm ơn','Chúc bình an'],desc:'Tulip màu nắng gói giấy mộc, vừa xinh để tặng.',tag:'Vừa túi xinh',img:'photo-1676886594255-1d97432721d3'}
   ];
   const $ = (selector, root=document) => root.querySelector(selector);
   const money = value => new Intl.NumberFormat('vi-VN').format(value) + '₫';
